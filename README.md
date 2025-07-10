@@ -337,19 +337,3 @@ npm run dev
 # Choose Mobile or Desktop mode
 # Start automating your tests!
 ```
-```
-
-This updated README provides:
-
-1. **Comprehensive Overview**: Clear explanation of mobile and desktop capabilities
-2. **Detailed Setup**: Step-by-step installation and configuration
-3. **Device Support**: Complete list of supported mobile devices
-4. **Interaction Guide**: Examples of mobile and desktop interactions
-5. **Advanced Configuration**: Environment variables and customization options
-6. **Troubleshooting**: Common issues and solutions
-7. **Visual Organization**: Tables, code blocks, and clear sections
-8. **Security Considerations**: Important security notes
-9. **Future Roadmap**: Planned enhancements
-10. **Quick Start**: Simple commands to get started immediately
-
-The documentation now matches the enhanced mobile and desktop testing capabilities while maintaining clarity for both beginners and advanced users.
