@@ -1,6 +1,3 @@
-**README.md**
-
-```markdown
 # Mobile & Desktop Testing Agent Demo
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](frontend/LICENSE)
