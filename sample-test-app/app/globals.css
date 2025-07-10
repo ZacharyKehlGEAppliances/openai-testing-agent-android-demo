@@ -3,6 +3,67 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Add mobile-specific styles */
+@media (max-width: 768px) {
+  .mobile-optimized {
+    padding: 0.5rem;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem;
+    z-index: 50;
+  }
+  
+  .mobile-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .mobile-nav-item.active {
+    color: #1f2937;
+  }
+  
+  .mobile-product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .mobile-product-card {
+    padding: 0.75rem;
+  }
+  
+  .mobile-cart-item {
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .mobile-form-input {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+}
+
+/* Touch-friendly button sizes */
+@media (max-width: 768px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Existing styles */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

@@ -10,11 +10,13 @@
     "pino-pretty": "^13.0.0",
     "playwright": "^1.52.0",
     "openai": "^4.87.3",
-    "uuid": "^11.1.0"
+    "uuid": "^11.1.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "typescript": "^5",
     "ts-node-dev": "^2.0.0",
-    "@types/node": "^20"
+    "@types/node": "^20",
+    "@types/uuid": "^10.0.0"
   }
 }
